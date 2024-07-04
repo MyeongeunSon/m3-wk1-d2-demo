@@ -1,7 +1,7 @@
 express = require('express');
 router= express.Router();
 router.get('/home',function(req, res){
-    res.send("Hello World!");
+    res.send("Hello Maddie");
 });
 router.post( '/home', function(req, res){
     res.send("You Just call the post method at '/hello'!\n");
